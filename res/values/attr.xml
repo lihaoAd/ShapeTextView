@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ShapeTextView">
+
+        <!-- 圆角 -->
+        <attr name="cornerRadius" format="dimension" />
+        <attr name="topLeftRadius" format="dimension" />
+        <attr name="topRightRadius" format="dimension" />
+        <attr name="bottomLeftRadius" format="dimension" />
+        <attr name="bottomRightRadius" format="dimension" />
+
+        <!-- 边框宽度 -->
+        <attr name="stroke" format="dimension" />
+        <!-- 边框颜色 -->
+        <attr name="strokeColor" format="color" />
+        <!-- 按下时的颜色 -->
+        <attr name="pressedColor" format="color" />
+        <!-- 正常时的颜色 -->
+        <attr name="normalColor" format="color" />
+        <!-- disable时的颜色 -->
+        <attr name="disabledColor" format="color" />
+        <!-- 是否是虚线 -->
+        <attr name="isdash" format="boolean" />
+        <!-- 破折线的宽度 -->
+        <attr name="dashWidth" format="dimension|reference" />
+        <!-- 破折线之间的空隙的宽度为dashGap，当dashGap=0dp时，为实线 -->
+        <attr name="dashGap" format="dimension|reference" />
+    </declare-styleable>
+
+</resources>
