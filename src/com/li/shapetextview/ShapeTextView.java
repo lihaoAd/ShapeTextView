@@ -72,10 +72,15 @@ public class ShapeTextView extends TextView {
 
 		initAttributes(context, attributeSet);
 		initStateDrawable();
+		if(mStateDrawable !=null)
 		setBackgroundCompat(mStateDrawable);
 	}
 
 	private void initStateDrawable() {
+		if(mColorNormal ==0&mStrokeColor ==0&& 
+					mColorDisabled==0&&mColorPressed == 0){
+				return;
+			}
 		if (mBackground == null) {
 			mBackground = createDrawable(mColorNormal, mStrokeColor);
 		}
