@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <declare-styleable name="ShapeTextView">
+<declare-styleable name="ShapeTextView">
 
         <!-- 圆角 -->
         <attr name="cornerRadius" format="dimension" />
@@ -16,6 +16,7 @@
         <attr name="strokeColor" format="color" />
         <!-- 按下时的颜色 -->
         <attr name="pressedColor" format="color" />
+        <attr name="checkedColor" format="color" />
         <!-- 正常时的颜色 -->
         <attr name="normalColor" format="color" />
         <!-- disable时的颜色 -->

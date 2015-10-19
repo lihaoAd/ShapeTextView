@@ -52,6 +52,7 @@ public class ShapeTextView extends TextView {
 	private int mColorNormal;
 	private int mColorPressed;
 	private int mColorDisabled;
+	private int mColorChecked;
 
 	public ShapeTextView(Context context) {
 		super(context);
@@ -91,10 +92,14 @@ public class ShapeTextView extends TextView {
 				mStrokeColor);
 		GradientDrawable drawablePressed = createDrawable(mColorPressed,
 				mStrokeColor);
+		GradientDrawable drawableChecked = createDrawable(mColorChecked,
+				mStrokeColor);
 		mStateDrawable = new StateListDrawable();
 
 		mStateDrawable.addState(new int[] { android.R.attr.state_pressed },
 				drawablePressed);
+		mStateDrawable.addState(new int[] { android.R.attr.state_checked },
+				drawableChecked);
 		mStateDrawable.addState(new int[] { android.R.attr.state_focused },
 				drawableFocused);
 		mStateDrawable.addState(new int[] { -android.R.attr.state_enabled },
