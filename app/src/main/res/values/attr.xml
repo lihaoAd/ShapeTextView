@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<declare-styleable name="ShapeTextView">
+
+         <!-- 圆角 -->
+        <attr name="st_cornerRadius" format="dimension" />
+        <attr name="st_topLeftRadius" format="dimension" />
+        <attr name="st_topRightRadius" format="dimension" />
+        <attr name="st_bottomLeftRadius" format="dimension" />
+        <attr name="st_bottomRightRadius" format="dimension" />
+
+        <!-- 边框宽度 -->
+        <attr name="st_stroke" format="dimension" />
+        <!-- 边框颜色 -->
+        <attr name="st_strokeColor" format="color" />
+        <!-- 按下时的颜色 -->
+        <attr name="st_pressedColor" format="color" />
+        <attr name="st_checkedColor" format="color" />
+        <!-- 正常时的颜色 -->
+        <attr name="st_normalColor" format="color" />
+        <attr name="st_disabledColor" format="color" />
+
+        <!-- 是否是虚线 -->
+        <attr name="st_isdash" format="boolean" />
+        <!-- 破折线的宽度 -->
+        <attr name="st_dashWidth" format="dimension|reference" />
+        <!-- 破折线之间的空隙的宽度为dashGap，当dashGap=0dp时，为实线 -->
+        <attr name="st_dashGap" format="dimension|reference" />
+
+        <attr name="st_text_checked_color" format="color" />
+        <attr name="st_text_pressed_color" format="color" />
+        <attr name="st_text_focused_color" format="color" />
+        <attr name="st_text_unable_color" format="color" />
+        <attr name="st_text_window_focused_color" format="color" />
+        <attr name="st_text_normal_color" format="color" />
+    </declare-styleable>
+
+</resources>

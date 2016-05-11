@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_vertical_margin">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <com.li.shapetextview.ShapeTextView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Marshmallow"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="22sp"
+                app:st_cornerRadius="10dp"
+                app:st_disabledColor="@android:color/darker_gray"
+                app:st_normalColor="#fb6362"
+                app:st_pressedColor="#93261b" />
+
+
+            <com.li.shapetextview.ShapeTextView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Marshmallow"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="22sp"
+                app:st_bottomLeftRadius="20dp"
+                app:st_bottomRightRadius="0dp"
+                app:st_disabledColor="@android:color/darker_gray"
+                app:st_normalColor="#fb6362"
+                app:st_pressedColor="#93261b"
+                app:st_topLeftRadius="10dp"
+                app:st_topRightRadius="30dp" />
+
+
+            <com.li.shapetextview.ShapeTextView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_below="@id/text1"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Marshmallow"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="22sp"
+                app:st_cornerRadius="10dp"
+                app:st_disabledColor="@android:color/darker_gray"
+                app:st_normalColor="#fb6362"
+                app:st_pressedColor="#93261b"
+                app:st_text_normal_color="@android:color/white"
+                app:st_text_pressed_color="#546545" />
+
+
+            <com.li.shapetextview.ShapeTextView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/text1"
+                android:layout_marginTop="10dp"
+                android:enabled="false"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Marshmallow"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="22sp"
+                app:st_bottomLeftRadius="20dp"
+                app:st_bottomRightRadius="0dp"
+                app:st_disabledColor="@android:color/darker_gray"
+                app:st_normalColor="#fb6362"
+                app:st_pressedColor="#93261b"
+                app:st_text_normal_color="@android:color/white"
+                app:st_text_pressed_color="#546545"
+                app:st_text_unable_color="#534654"
+                app:st_topLeftRadius="10dp"
+                app:st_topRightRadius="30dp" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <com.li.shapetextview.ShapeTextView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/text5"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Marshmallow"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="22sp"
+                app:st_cornerRadius="10dp"
+                app:st_disabledColor="@android:color/darker_gray"
+                app:st_normalColor="#fb6362"
+                app:st_pressedColor="#93261b"
+                app:st_stroke="5dp"
+                app:st_strokeColor="#354658" />
+
+            <com.li.shapetextview.ShapeTextView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/text6"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Marshmallow"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="22sp"
+                app:st_bottomLeftRadius="20dp"
+                app:st_bottomRightRadius="0dp"
+                app:st_disabledColor="@android:color/darker_gray"
+                app:st_normalColor="#fb6362"
+                app:st_pressedColor="#93261b"
+                app:st_stroke="2dp"
+                app:st_strokeColor="#354658"
+                app:st_topLeftRadius="10dp"
+                app:st_topRightRadius="30dp" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <com.li.shapetextview.ShapeTextView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/text7"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Marshmallow"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="22sp"
+                app:st_cornerRadius="10dp"
+                app:st_dashGap="5dp"
+                app:st_dashWidth="10dp"
+                app:st_disabledColor="@android:color/darker_gray"
+                app:st_isdash="true"
+                app:st_normalColor="#fb6362"
+                app:st_pressedColor="#93261b"
+                app:st_stroke="5dp"
+                app:st_strokeColor="#354658" />
+
+
+            <com.li.shapetextview.ShapeTextView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/text8"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Marshmallow"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="22sp"
+                app:st_cornerRadius="10dp"
+                app:st_dashGap="5dp"
+                app:st_dashWidth="12dp"
+                app:st_disabledColor="@android:color/darker_gray"
+                app:st_isdash="true"
+                app:st_normalColor="#fb6362"
+                app:st_pressedColor="#93261b"
+                app:st_stroke="2dp"
+                app:st_strokeColor="#354658" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <com.li.shapetextview.ShapeTextView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/text9"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Marshmallow"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                app:st_cornerRadius="60dp"
+                app:st_dashGap="5dp"
+                app:st_dashWidth="10dp"
+                app:st_disabledColor="@android:color/darker_gray"
+                app:st_isdash="true"
+                app:st_normalColor="#fb6362"
+                app:st_pressedColor="#93261b"
+                app:st_stroke="1dp"
+                app:st_strokeColor="#354658" />
+
+            <com.li.shapetextview.ShapeTextView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/text10"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Marshmallow"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                app:st_cornerRadius="60dp"
+                app:st_dashGap="5dp"
+                app:st_dashWidth="10dp"
+                app:st_disabledColor="@android:color/darker_gray"
+                app:st_isdash="false"
+                app:st_normalColor="#fb6362"
+                app:st_pressedColor="#93261b"
+                app:st_stroke="0dp"
+                app:st_strokeColor="#354658" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
